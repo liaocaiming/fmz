@@ -7,7 +7,7 @@ function main(){
         var ticker = _C(exchange.GetTicker)
         if(hold.amount == 0){
             var firstInfo = $.Sell(_FirstAmount)
-            hold.amount = firstInfo.amount
+            hold.amount =irstInfo.amount
             hold.price = firstInfo.price
         } else {
             if(ticker.Buy < hold.price - _StopWin){
